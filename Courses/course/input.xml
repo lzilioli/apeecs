@@ -1,0 +1,292 @@
+<topiclist>
+	<topic n="Basics">
+		<question type="xchoice" q="What is the benefit of representing data using binary?">
+			<response>Can represent data using bits</response>
+			<response>Everything has two states: true and false</response>
+			<response>Depiction using 0s and 1s</response>
+			<response correct="true">All of the above</response>
+		</question>
+		<question type="xchoice" q="What is Morre's Law?">
+			<response correct="true">The number of transistors on circuits doubles ~every 4 years</response>
+			<response>The number of disks on a hard drive stays constant.</response>
+			<response>Processor designs will keep to 5 stages</response>
+			<response>The amount of power used by a computer triples every year.</response>
+		</question>
+	</topic>
+	<topic n="Binary">
+		<question type="bin" toDec="true">128</question>
+		<question type="bin" toDec="false">7</question>
+		<question type="bin" toDec="true"></question>
+		<question type="bin" toDec="false"></question>
+		<question type="bin" toDec="true"></question>
+		<question type="bin" toDec="false"></question>
+		<question type="bin" toDec="true"></question>
+		<question type="bin" toDec="false"></question>
+		<question type="bin" toDec="true"></question>
+		<question type="bin" toDec="false"></question>
+		<question type="bin" toDec="true"></question>
+		<question type="bin" toDec="false"></question>
+	</topic>
+	<topic n="Algorithms">
+		<question type="xchoice" q="How do algorithms help in real life?">
+			<response>They execute the same instructions every time</response>
+			<response>They help us use computers to learn and improve user experiences</response>
+			<response>They make web searches way better</response>
+			<response correct="true">All of the above</response>
+		</question>
+		<question type="xchoice" q="Which of these is not a major component of an algorithm?">
+			<response>Selection</response>
+			<response>Listening</response>
+			<response>Sequence</response>
+			<response>Iteration</response>
+		</question>
+		<question type="xchoice" q="Which is not an example of iteration in an algorithm?">
+			<response correct="true">If the food is done, remove from oven</response>
+			<response>While there are more chocolate chips, put one chocolate chip on each cookie</response>
+			<response>For each ball of dough, place the ball on the pan</response>
+			<response>While there are still eggs to crack, crack the eggs</response>
+		</question>
+		<question type="xchoice" q="Which of the following is not a benefit of procedural abstraction?">
+			<response>The user doesn't need to know the details of implementation</response>
+			<response>Algorithms are cleaner looking</response>
+			<response correct="true">Code is executed at a higher rate</response>
+			<response>Algorithms are easier to read</response>
+		</question>
+		<question type="xchoice" q="Which is not a real life application of a computer algorithm?">
+			<response>Netflix recommending movies based on what was previously watched.</response>
+			<response>The ads that are displayed on Google searches</response>
+			<response correct="true">The way an engine piston fires</response>
+			<response>Recommending what Facebook friends to add</response>
+		</question>
+		<question type="xchoice" q="What is the worst case complexity of bubble sort?">
+			<response correct="true">O(n^2)</response>
+			<response>O(n^3*n)</response>
+			<response>O(1)</response>
+			<response>O(n^n)</response>
+		</question>
+		<question type="xchoice" q="What is the best case complexity of insertion sort?">
+			<response >O(n^3)</response>
+			<response>O(0)</response>
+			<response>O(2n^3 + 2n^2 * 2.54)</response>
+			<response correct="true">O(n)</response>
+		</question>
+		<question type="xchoice" q="Which is a better sorting algorithm on an already sorted array?">
+			<response >Window Sort</response>
+			<response correct="true">Insertion Sort</response>
+			<response>Binary Sort</response>
+			<response>Bubble Sort</response>
+		</question>
+		<question type="xchoice" q="Which is not a step in the Binary Search algorithm?">
+			<response >Compare the value against the middle value of the array</response>
+			<response>Split the array into two parts: the left and right of the middle value</response>
+			<response correct="true">Put the compared value at the end of the array</response>
+			<response>If the value is less than the middle element, use the left portion of the array</response>
+		</question>
+		<question type="xchoice" q="Which of the following statements is true?">
+			<response >Worst case and best case performances for bubble sort the same</response>
+			<response correct="true">Insertion Sort and Bubble Sort have equivalent best case performances</response>
+			<response>Bubble sort is the best sorting algorithm ever invented in the history of mankind</response>
+			<response>Worst case insertion sort == best case Bubble Sort</response>
+		</question>
+		<question type="xchoice" q="Which are valid inputs into the Binary Search algorithm?" img="binarySearch2.png">
+			<response>A and B</response>
+			<response correct="true">A, B and D</response>
+			<response>B, C and D</response>
+			<response>All of them</response>
+			<response>None of them</response>
+		</question>
+		<question type="xchoice" q="This is the end result of a successful first step of the Bubble Sort algorithm" img="bubbleSort.png">
+			<response correct="true">True</response>
+			<response>False</response>
+		</question>
+		<question type="xchoice" q="Which is the next correct step if the Insertion Sort algorithm is being used?" img="insertionSort.png">
+			<response>A</response>
+			<response correct="true">B</response>
+			<response>C</response>
+			<response>D</response>
+		</question>
+		<question type="xchoice" q="What case will be handeled on the first iteration of the Binary Search algorithm?" img="binarySearch.png">
+			<response>1</response>
+			<response>2</response>
+			<response correct="true">3</response>
+			<response>4</response>
+		</question>
+		<question type="xchoice" q="How many distinct values will be moved if Insertion Sort is used on the given inpu?" img="insertionSort2.png">
+			<response>5</response>
+			<response correct="true">3</response>
+			<response>0</response>
+			<response>2</response>
+		</question>
+	</topic>
+
+
+	<topic n="Data Storage">
+		<question type="xchoice" q="What is a database?">
+			<response correct="true">A collection of data</response>
+			<response>The algorithm to find the shortest delivery route</response>
+			<response>A service that can be used to discover the location of an object</response>
+			<response>Comparing two values to see if they're equal</response>
+		</question>
+		<question type="xchoice" q="Which of these is not true of relational databases?">
+			<response>Primary keys define unique entries</response>
+			<response>Data is stored in tables</response>
+			<response>Headers define what will be stored in each row</response>
+			<response correct="true">Tables cannot be searched, only used for storage</response>
+		</question>
+		<question type="xchoice" q="What is an example of a primary key?">
+			<response>First name</response>
+			<response correct="true">Social security numbers</response>
+			<response>GPA</response>
+			<response>Zip codes</response>
+		</question>
+		<question type="xchoice" q="What is not true of data stored in databases?">
+			<response>Personally identifiable info can be removed</response>
+			<response>Multiple tables can be stored in the same database</response>
+			<response correct="true">Primary keys are optional</response>
+			<response>Data can be re-identified even without personally indentifiable data</response>
+		</question>
+		<question type="xchoice" q="What can be considered a drawback of information storage?">
+			<response>Privacy can be infringed upon</response>
+			<response>People can steal data</response>
+			<response>Unwanted information can be revealed</response>
+			<response correct="true">All of the above</response>
+		</question>
+		<question type="xchoice" q="What is not an example of cloud computing?">
+			<response>Dropbox</response>
+			<response>Umich-provided AFS storage</response>
+			<response correct="true">Solid state hard drives</response>
+			<response>Google Drive</response>
+		</question>
+		<question type="xchoice" q="Why can data be recovered even after deleting?">
+			<response correct="true">Data remains on disk, only index entries are erased</response>
+			<response>The hard drive has a memory</response>
+			<response>The Matrix</response>
+			<response>Hackers create complicated algorithms to restore the index entries</response>
+		</question>
+		<question type="xchoice" q="Which is a way you can permanently delete data?">
+			<response>Clear your Recycle Bin/Trash</response>
+			<response correct="true">Write all zeros over the data blocks</response>
+			<response>Delete index entries</response>
+			<response>Move files around enough to confuse people</response>
+		</question>
+	</topic>
+
+	<topic n="Security">
+		<question type="xchoice" q="Why is security important?">
+			<response>The more we use computers, the more data we put out in the world</response>
+			<response>People suck and will try to hurt you</response>
+			<response>The more complicated comptuers get, the more we rely on them, and the more they have to protect</response>
+			<response correct="true">All of the above</response>
+		</question>
+		<question type="xchoice" q="Why is cryptography">
+			<response>Linking two computers through an HTTP connection</response>
+			<response correct="true">The practice and study of secure communication</response>
+			<response>The science behind the basics of algorithms</response>
+			<response>The study of crypts</response>
+		</question>
+		<question type="xchoice" q="What is a cipher?">
+			<response>Linking two computers through an HTTP connection</response>
+			<response>The process of overwriting bits on a hard drive</response>
+			<response correct="true">A pair of algorithms that can be used to encrypt/decrypt data</response>
+			<response>An open-source relational database schematic</response>
+		</question>
+		<question type="xchoice" q="What is a cipher?">
+			<response>Linking two computers through an HTTP connection</response>
+			<response>The process of overwriting bits on a hard drive</response>
+			<response correct="true">A pair of algorithms that can be used to encrypt/decrypt data</response>
+			<response>An open-source relational database schematic</response>
+		</question>
+		<question type="xchoice" q="What is the drawback of using a substitution cipher?">
+			<response>They make the words look funny</response>
+			<response correct="true">They can be broken using algorithms</response>
+			<response>They're very complicated to implement</response>
+			<response>They don't actually encrypt messages</response>
+		</question>
+		<question type="xchoice" q="What is not true of public key encryption?">
+			<response correct="true">It requires the use of two public keys</response>
+			<response>Two different key pairs are used to communicate</response>
+			<response>If done right, it cannot be broken</response>
+			<response>Users can digitally sign messages</response>
+		</question>
+		<question type="xchoice" q="What is true of a private key used in public key encryption?">
+			<response correct="true">It digitally signs the message</response>
+			<response>It is used by the receiving party to decrypt the message</response>
+			<response>Private keys are not unique</response>
+			<response>Public key encryption can be done without private keys</response>
+		</question>
+		<question type="xchoice" q="What is not true of symmetric key cryptography?">
+			<response>Modular arithmetic is used</response>
+			<response correct="true">The use of multiple keys means entirely secure communication</response>
+			<response>Also known as Diffie-Hellman key exchange</response>
+			<response>Based around aprocedure that is easy to lock but difficult to unlock</response>
+		</question>
+		<question type="xchoice" q="When does frequency analysis work?">
+			<response>Never</response>
+			<response>When trying to break public key encryption</response>
+			<response>When a rotation substitution alphabet is used</response>
+			<response correct="true">When trying to break a substitution cipher</response>
+		</question>
+		<question type="xchoice" q="Pick the simplest form of cryptanalysis">
+			<response>Public key cryptography</response>
+			<response correct="true">Brute force</response>
+			<response>Frequency analysis</response>
+			<response>Inter-distributed database schematic analysis</response>
+		</question>
+	</topic>
+
+	<topic n="Data Logic">
+		<question type="xchoice" q="All basic logic operations can be broken down to two main operations">
+			<response>True</response>
+			<response correct="true">False</response>
+		</question>
+		<question type="xchoice" q="The following logic gate represents what simple logic operation?" img="andGate.png">
+			<response>OR</response>
+			<response correct="true">AND</response>
+			<response>XOR</response>
+			<response>FOR</response>
+		</question>
+		<question type="xchoice" q="XOR is a combination of which basic logic operations?">
+			<response>AND</response>
+			<response>OR</response>
+			<response>NOT</response>
+			<response correct="true">All of the above</response>
+		</question>
+		<question type="xchoice" q="The following is the truth table to what basic logic operation?" img="xorTruthTable.png">
+			<response correct="true">XOR</response>
+			<response>OR</response>
+			<response>NAND</response>
+			<response>AND</response>
+		</question>
+		<question type="xchoice" q="Find the solution to the following truth table." img="truthTable.png">
+			<response>A</response>
+			<response>B</response>
+			<response correct="true">C</response>
+			<response>D</response>
+		</question>
+		<question type="xchoice" q="Find the solution to the following truth table." img="truthTable2.png">
+			<response>A</response>
+			<response>B</response>
+			<response>C</response>
+			<response correct="true">D</response>
+		</question>
+		<question type="xchoice" q="Which of the following is the solution to the binary addition problem?" img="binaryAddition.png">
+			<response>A</response>
+			<response correct="true">B</response>
+			<response>C</response>
+			<response>D</response>
+		</question>
+		<question type="xchoice" q="In a Half Adder, the Sum value is found using an XOR gate.">
+			<response correct="true">True</response>
+			<response>False</response>
+		</question>
+		<question type="xchoice" q="A full Adder consists of two Half Adders and a AND gate to determine the carry">
+			<response>True</response>
+			<response correct="true">False</response>
+		</question>
+		<question type="xchoice" q="A Ripple Carry Adder has no use for Half Adders">
+			<response>True</response>
+			<response correct="true">False</response>
+		</question>
+	</topic>
+</topiclist>
+

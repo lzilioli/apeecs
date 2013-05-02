@@ -1,0 +1,20 @@
+<topiclist>
+	<topic n="Michigan History">
+		<question type="xchoice" q="Hail to the what?" img="blockM.png">
+			<response>Victors valiant</response>
+			<response>Conquring heroes</response>
+			<response>Michigan</response>
+			<response>The Leaders and Best</response>
+			<response correct="true">All of the above</response>
+		</question>
+	</topic>
+	<topic n="Michgan Football">
+		<question type="xchoice" q="How many Heisman winners has Michigan had?">
+			<response>5</response>
+			<response correct="true">3</response>
+			<response>20</response>
+			<response>5</response>
+		</question>
+	</topic>
+</topiclist>
+
